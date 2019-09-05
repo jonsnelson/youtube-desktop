@@ -1,0 +1,22 @@
+{
+  "name": "youtube-desktop",
+  "ProductName": "Youtube For Desktop",
+  "version": "1.0.1",
+  "description": "Youtube desktop app ported to desktop using Electron.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "osx": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=./icon/youtube.icns --prune=true --out=./dist ",
+    "windows": "electron-packager . --overwrite --platform=win32 --arch=ia32 --icon=./icon/youtube.icns --prune=true --out=./dist ",
+    "linux": "electron-packager . --overwrite --platform=linux  --icon=./icon/youtube.icns --prune=true --out=./dist "
+  },
+  "devDependencies": {
+    "electron": "^6.0.4"
+  },
+  "dependencies": {
+    "@cliqz/adblocker-electron": "^1.0.2",
+    "cross-fetch": "^3.0.4",
+    "electron-packager": "^14.0.4",
+    "electron-rebuild": "^1.8.6"
+  }
+}
