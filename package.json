@@ -3,6 +3,10 @@
   "ProductName": "Youtube For Desktop",
   "version": "1.0.1",
   "description": "Youtube desktop app ported to desktop using Electron.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devmarcy/youtube-desktop.git"
+},
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
