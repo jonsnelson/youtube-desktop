@@ -7,6 +7,13 @@ In the /dist folder.
 ## Where to find the code for the web app
 In the /src folder.
 
+## To run this from CLI
+run: 
+`npm install`
+to install dependancies.
+
+then to run the app:
+`npm start`
 
 ## Licence 
 
